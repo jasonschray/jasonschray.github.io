@@ -6,6 +6,10 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
     background-color:#F5F5F5;
+
+
+    -webkit-overflow-scrolling: touch;
+
 }
 
 * For mobile phones: */
