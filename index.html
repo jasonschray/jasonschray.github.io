@@ -1,0 +1,135 @@
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/website-2.css">
+
+</head>
+
+<body>
+    <div class="top">
+        <div class="row">
+
+            <div class="col-12 col-m-12 col-s-12 top-photo-container">
+                <div class="top-profile-photo" ></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 col-m-12 col-s-12 greeting-container">
+                <div class="greeting-text">
+                    Hi. </br>I'm Jason.
+                </div>
+                <div class="greeting-key-words">
+                    Hardware. Software. Impact.
+                </div>
+            
+                <div class="col-12 col-m-12 col-s-12 cta-box">
+                    <div class="cta-icons">
+                        <a href="https://www.linkedin.com/in/jason-schray/">
+                            <img src="./img/linkedin-icon.png"></img>
+                        </a>
+                        <a href="https://github.com/jasonschray/">
+                            <img src="./img/github-icon.png"></img>
+                        </a>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="col-5 col-m-12 col-s-12 right-photo-container">
+                <div class="right-profile-photo" ></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="project-section" class="row">
+        <div class = "col-1 col-m-1 col-s-12">
+        </div>
+        <div class ="col-10 col-m-10 col-s-12 grid">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <div class="grid-item">
+                <img src="./img/nest-connect.png">
+                <p class="card-title" > Nest Connect</p>
+                <p class="card-date">2017</p>
+                <p class="card-info">
+                    I was the lead RF engineer on this project. The project was a Thread border router
+                    used to expand the range of the Thread network in the home.
+                    <ul>
+                    <li>I worked crossfunctionally with many teams to insure the device performed as expected.</li>
+                    <li>Wrote automation test software to test all RF subsystems.</li>
+                    <li>Integrated 3 colocated radios (WIFI 802.11a/b/g/n, BLE, Thread 802.15.4).</li>
+                    <li>Supported certification for FCC, UL, and BT SIG.</li>
+                    </ul>
+                </p>
+                
+            </div>
+            <div class="grid-item">
+                <img src="./img/mem-flash.png">
+                <p class="card-title" >Mem-Flash</p>
+                <p class="card-date">2017</p>
+                <p class="card-info">
+                    I wanted a chance to practice my software skills and have a tool that I could use in the future to memorize new things. As a result, I decided to make a web app that allowed users to create accounts where they could make and store digital flash cards. </br>
+                    Frameworks:
+                </p>
+                    <ul>
+                    <li>Bootstrap</li>
+                    <li>Flask</li>
+                    <li>MySQL-Alchemy</li>
+                    <li>Flask-Login</li>
+
+                    </ul>
+                <p class="card-info">
+                    </br>
+                    Deployed on GAE.
+                </p>
+            </div>
+            <div class="grid-item">
+                <img src="./img/nest-cam-iq.png">
+                <p class="card-title" >Nest Cam IQ </p>
+                <p class="card-date">2016</p>
+                <p class="card-info">
+                    I worked with 2 other RF engineers on this project. The project was the first and most intelligent camera designed by Nest with a 4k video sensor, on-device image processing, and a beautiful design.
+                    <ul>
+                    <li>I worked crossfunctionally with many teams to insure the device performed as expected.</li>
+                    <li>Wrote portions of the factory production test software.</li>
+                    <li>Helped 3 colocated radios (WIFI 802.11a/b/g/n/ac 2x2 MIMO, BLE, Thread 802.15.4).</li>
+                    
+                    </ul>
+                </p>
+            </div>
+            <div class="grid-item">
+                <img src="./img/scaled-sar.png">
+                <p class="card-title" >Scaled SAR</p>
+                <p class="card-date">2014-2016</p>
+                <p class="card-info">
+                    I worked on this project with 1 other EE student for my master's thesis. Our professor won grant money to build a scaled syntetic aperture radar (SAR) system to test SAR algorithms for our schools DSP research. We worked together to design, build, and test the entire system.
+                    </br>
+                    Tech Specs:
+                    <ul>
+                    <li>1.5 GHz - 2.5 GHz UWB</li>
+                    <li>Pulse Compression</li>
+                    <li>15 cm range resolution</li>
+                    <li>Successful object differentiation</li>
+                    </ul>
+                    <a href="http://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=2823&context=theses">Thesis Paper Link</a>
+                </p>
+            </div>
+        </div>
+        <div class = "col-1 col-m-1 col-s-12">
+        </div>
+        
+    </div>
+
+<script src="./js/jquery-3.3.1.min.js"></script>
+<script src="./js/masonry.pkgd.js"></script>
+<script>
+$('.grid').masonry({
+  itemSelector: '.grid-item',
+  columnWidth: '.grid-sizer',
+  gutter: '.gutter-sizer',
+  percentPosition: true
+});
+</script>
+
+
+</body>
+
